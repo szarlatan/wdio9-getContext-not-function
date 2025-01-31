@@ -1,11 +1,11 @@
 import { join } from 'node:path'
 
-const klarnaAppFolder = 'wdiov9'
-const klarnaAppRootFolderPath = join(process.cwd().split(klarnaAppFolder)[0], klarnaAppFolder)
-const klarnaAppClientsFolderPath = join(klarnaAppRootFolderPath, 'clients')
+const acmeAppFolder = 'wdio9-sample'
+const acmeAppRootFolderPath = join(process.cwd().split(acmeAppFolder)[0], acmeAppFolder)
+const acmeAppClientsFolderPath = join(acmeAppRootFolderPath, 'clients')
 
 export const paths = {
-  APPIUM_AUTOMATION: join(klarnaAppClientsFolderPath, 'packages', 'test', 'appium-automation'),
-  KLARNA_APP_CLIENTS: klarnaAppClientsFolderPath,
-  KLARNA_APP_ROOT: klarnaAppRootFolderPath
+  APPIUM_AUTOMATION: join(acmeAppClientsFolderPath, 'packages', 'test', 'appium-automation'),
+  ACME_APP_CLIENTS: acmeAppClientsFolderPath,
+  ACME_APP_ROOT: acmeAppRootFolderPath
 }

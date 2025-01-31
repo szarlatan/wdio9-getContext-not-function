@@ -1,4 +1,4 @@
-import { Page } from '@klapp-test/appium-automation';
+import { Page } from '@acme-test/appium-automation';
 
 /**
  * sub page containing specific selectors and methods for a specific page

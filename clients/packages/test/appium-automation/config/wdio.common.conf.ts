@@ -2,7 +2,7 @@ import { join } from "node:path"
 
 import { paths } from "../constants/paths.js"
 
-const allureResultsPath = join(paths.KLARNA_APP_CLIENTS, 'test-reports', 'appium', 'allure-results')
+const allureResultsPath = join(paths.ACME_APP_CLIENTS, 'test-reports', 'appium', 'allure-results')
 
 export const config: WebdriverIO.Config = {
     //

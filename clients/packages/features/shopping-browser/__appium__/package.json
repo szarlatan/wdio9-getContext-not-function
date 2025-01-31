@@ -1,12 +1,12 @@
 {
   "version": "0.0.0",
-  "name": "@klapp-shopping-browser/__appium__",
+  "name": "@acme-shopping-browser/__appium__",
   "team": "app.browser-core.e",
   "main": "./index.ts",
   "sideEffects": false,
   "private": true,
   "dependencies": {
-    "@klapp-test/appium-automation": "0.0.0"
+    "@acme-test/appium-automation": "0.0.0"
   },
   "volta": {
     "extends": "../../../../package.json"

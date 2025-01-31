@@ -1,3 +1,6 @@
 clients/node_modules/
 clients/test-reports/
 clients/.yarn
+
+clients/appium.log
+clients/package-lock.json

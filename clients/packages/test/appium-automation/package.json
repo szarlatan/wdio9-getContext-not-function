@@ -1,6 +1,6 @@
 {
   "version": "0.0.0",
-  "name": "@klapp-test/appium-automation",
+  "name": "@acme-test/appium-automation",
   "sideEffects": false,
   "team": "app.browser-core.e",
   "main": "./index.ts",
