@@ -1,5 +1,6 @@
 # Setup
 
 1. Clone project
-2. Run `npm i`
-3. Launch with `npm run wdio`
+2. `cd clients`
+3. `npm i`
+3. Launch with `SPECS=~/git/wdiov9/clients/packages/features/shopping-browser/__appium__/specs/test.e2e.ts node_modules/.bin/wdio packages/test/appium-automation/config/wdio.ios.conf.ts`

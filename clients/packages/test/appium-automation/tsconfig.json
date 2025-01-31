@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "esnext",
+    "target": "es2019",
+    "lib": ["es2019", "dom"],
+    "types": [
+      "node",
+      "@wdio/appium-service",
+      "@wdio/globals/types",
+      "@wdio/mocha-framework",
+      "@wdio/types",
+      "expect-webdriverio"
+    ],
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "server": {
+      "address": "127.0.0.1",
+      "allow-cors": true,
+      "base-path": "/",
+      "callback-address": "127.0.0.1",
+      "callback-port": 4723,
+      "debug-log-spacing": true,
+      "allow-insecure": ["adb_shell", "chromedriver_autodownload", "get_server_logs"],
+      "keep-alive-timeout": 1000,
+      "local-timezone": true,
+      "log": "./appium.log",
+      "log-level": "debug",
+      "log-no-colors": false,
+      "log-timestamp": true,
+      "long-stacktrace": true,
+      "no-perms-check": true,
+      "port": 4723,
+      "session-override": false,
+      "strict-caps": true
+    }
+  }

@@ -1,0 +1,3 @@
+{
+  "extends": "../../../test/appium-automation/tsconfig.json"
+}
